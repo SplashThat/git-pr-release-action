@@ -45725,6 +45725,9 @@ const gitPrRelease = __nccwpck_require__(2567);
       core.info(`${key}: ${releasePr[key]}`);
     }
   }
+
+  core.setOutput('PR_NUMBER', releasePr.number);
+
 })().catch((e) => {
   core.setFailed(e.message);
 });

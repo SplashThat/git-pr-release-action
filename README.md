@@ -71,6 +71,10 @@ jobs:
 
 Note that this action uses the template file in your repository. So you need 'checkout' step if you specify template option.
 
+**output**
+
+- `PR_NUMBER`: The number of the result PR.
+
 ## Demo
 
 ![](./docs/screenshot.png)
